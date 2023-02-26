@@ -5,7 +5,7 @@ import classes from './UpperNavBar.module.css';
 
 const UpperNavBar = () => {
    return (
-      <div>
+      <div className={classes.container} >
          <MainLogo />
          <SearchBar />
       </div>
