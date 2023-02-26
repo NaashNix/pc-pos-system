@@ -3,6 +3,8 @@
    width: 8vw;
    height: 8vw;
    border-radius: 10px;
+   position: relative;
+
 }
 
 .mainTitle{
@@ -10,4 +12,19 @@
    font-weight: 700;
    color: black;
    font-size: 1.4rem;
+   display: block;
+}
+
+.subTitle{
+   font-family: 'Poppins';
+   font-size: 1rem;
+   font-weight: 400;
+   color: #4D4D4D;
+}
+
+.image{
+   width: 20%;
+   position: absolute;
+   left: 10%;
+   top: 10%;
 }
