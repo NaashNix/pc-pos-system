@@ -2,7 +2,7 @@ import React,{useState} from "react";
 import classes from "./FoodTypeTile.module.css";
 import breakfast_image from "../../assets/breakfast.png";
 
-const FoodTypeTile = () => {
+const FoodTypeTile = (props) => {
 
    const [mouseState, setMouseEntered] = useState(false);
 
@@ -23,7 +23,7 @@ const FoodTypeTile = () => {
       >
 			<img className={classes.image} src={breakfast_image} alt="" />
 			<div className={classes.titleHolder}>
-				<span className={classes.mainTitle}>Breakfast</span>
+				<span className={classes.mainTitle}>{props.heading}</span>
 				<span className={classes.subTitle}>13 Items</span>
 			</div>
 		</div>
