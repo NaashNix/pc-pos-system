@@ -1,14 +1,17 @@
-import React from "react";
+import React,{useState} from "react";
 import classes from "./FoodTypeTile.module.css";
 import breakfast_image from "../../assets/breakfast.png";
 
 const FoodTypeTile = () => {
+
+   const [mouseState, setMouseEntered] = useState(false);
+
 	const mouseEnterHandler = () => {
-		console.log("Mouse Enter");
+		setMouseEntered(true);
 	};
 
    const mouseLeaveHandler = () => {
-      console.log('Mouse Leaved');
+      setMouseEntered(false);
    }
 
 	return (
@@ -16,6 +19,7 @@ const FoodTypeTile = () => {
          className={classes.outer} 
          onMouseEnter={mouseEnterHandler}
          onMouseLeave={mouseLeaveHandler}
+         style={{backgroundColor : !mouseState? "red" : "blue"}}
       >
 			<img className={classes.image} src={breakfast_image} alt="" />
 			<div className={classes.titleHolder}>
