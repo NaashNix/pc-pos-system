@@ -21,7 +21,7 @@ const FoodTypeTile = (props) => {
          onMouseLeave={mouseLeaveHandler}
          style={{ backgroundColor: !mouseState ? props.defColor : props.onColor}}
       >
-			<img className={classes.image} src={breakfast_image} alt="" />
+			<img className={classes.image} src={props.source} alt="" />
 			<div className={classes.titleHolder}>
 				<span className={classes.mainTitle}>{props.heading}</span>
 				<span className={classes.subTitle}>13 Items</span>
