@@ -8,7 +8,7 @@ const PriceViewerContainer = () => {
       <div className={classes.container} >
          <PriceViewer />
          <span className={classes.title} >Total Payment</span>
-         <Button />
+         <Button type='button' >Rs. 9500.00</Button>
       </div>
    );
 }
