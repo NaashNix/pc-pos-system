@@ -8,8 +8,8 @@ const CartItem = () => {
             <span>12</span>
          </div>
          <div className={classes.titleHolder} >
-            <span className={classes.mainTitle} >Title</span>
-            <span>Price</span>
+            <span className={classes.mainTitle} >Roast Chicken</span>
+            <span className={classes.priceTitle} >5400.36</span>
          </div>
       </div>
    );
