@@ -4,12 +4,13 @@
    /* width should be 100% when adding to main container */
    display: flex;
    flex-direction: row;
+   margin-bottom: 1rem;
    justify-content: space-between;
 }
 
 .mainTitle{
    font-family: 'Roboto';
-   font-size: 1.5rem;
+   font-size: 1.2rem;
    font-weight: 500;
    color: white;
 }
@@ -18,5 +19,5 @@
    color: white;
    font-family: 'Roboto';
    font-weight: 500;
-   font-size: 1.5rem;
+   font-size: 1.2rem;
 }
