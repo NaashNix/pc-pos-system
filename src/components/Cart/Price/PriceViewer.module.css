@@ -1,6 +1,6 @@
 .container{
-   border-bottom: 1px solid black;
-   width: 10rem; 
+   border-bottom: 1px solid #C3C3C3;
+   width: 100%; 
    /* width should be 100% when adding to main container */
    display: flex;
    flex-direction: row;
@@ -10,13 +10,13 @@
 .mainTitle{
    font-family: 'Roboto';
    font-size: 1.5rem;
-   font-weight: 700;
+   font-weight: 500;
    color: white;
 }
 
 .subTitle{
    color: white;
    font-family: 'Roboto';
-   font-weight: 700;
+   font-weight: 500;
    font-size: 1.5rem;
 }

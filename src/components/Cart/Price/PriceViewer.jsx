@@ -4,8 +4,8 @@ import classes from "./PriceViewer.module.css";
 const PriceViewer = () => {
    return (
       <div className={classes.container} >
-         <span>Sub Total</span>
-         <span>Rs. 7800.00</span>
+         <span className={classes.mainTitle} >Sub Total</span>
+         <span className={classes.subTitle} >Rs. 7800.00</span>
       </div>
    );
 }

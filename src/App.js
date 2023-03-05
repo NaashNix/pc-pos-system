@@ -1,5 +1,6 @@
 import './App.css';
 import CartItem from './components/Cart/CartItem';
+import PriceViewerContainer from './components/Cart/Price/PriceViewerContainer';
 import FoodTileContainer from './components/FoodTypeTile/FoodTileContainer';
 import ItemTileContainer from './components/ItemTiles/ItemTileContainer';
 import SingleItem from './components/ItemTiles/SingleItem';
@@ -18,6 +19,7 @@ function App() {
        </div>
       </div> */}
       <CartItem />
+      <PriceViewerContainer />
     </div>
   );
 }
