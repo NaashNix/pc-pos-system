@@ -1,0 +1,50 @@
+.container{
+   background: #292C2D;
+   width: 15rem;
+   display: flex;
+   flex-direction: row;
+   padding: 1rem 1rem 1rem 3rem;
+   margin: 1rem;
+   border-radius: 8px;
+   position: relative;
+}
+
+.countContainer{
+   background-color: #726F6F;
+   position: absolute;
+   left: 0;
+   top: 0;
+   bottom: 0;
+   margin: auto;
+   height: 100%;
+   border-radius: 8px 0 0 8px;
+   width: 3rem;
+   text-align: center;
+   
+}
+
+.countContainer span{
+   color: white;
+   font-family: 'Roboto';
+   font-weight: 700;
+   font-size: 1.5rem;
+   position: absolute;
+   top: 0;
+   bottom: 0;
+   margin: auto;
+   line-height: 1;
+   left: 0;
+   right: 0;
+   width: fit-content;
+   height: fit-content;
+}
+
+.titleHolder{
+   
+}
+
+.mainTitle{
+   color: white;
+   font-weight: 400;
+   font-family: 'Poppins';
+}
